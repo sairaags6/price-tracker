@@ -1,4 +1,4 @@
-# price-tracker
+# price-tracker(tracks e-commerce price change and when there is a fall in price a message will be delivered to the mail provided)
 import bs4
 import urllib.request
 import requests
