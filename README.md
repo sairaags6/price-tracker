@@ -7,7 +7,7 @@ import smtplib
 Price_list=[]
 
 def Price_check():
-    url = "https://www.amazon.in/Apple-iPhone-13-Mini-256GB/dp/B09G995NMD/ref=sr_1_1?crid=Z5OXVC8NJJYD&dchild=1&keywords=iphone+12mini&qid=1635421389&sprefix=iphone%2Caps%2C626&sr=8-1"
+    url = "link"
     header = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36."}
     page= requests.get(url,headers=header )
     html = page.content
